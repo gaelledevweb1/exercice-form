@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/desktopp.css">
+    <link rel="stylesheet" href="asset/mobile.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>formulaire</title>
+</head>
+<body>
+    <div class="container ">
+        <form action="formulaire"  class="form flexstart"method="get">
+            <h1>
+                Contactez-nous
+            </h1>
+            <p>
+                un problème, une question, envie de nous envoyer un message d'amour ? N'hésitez pas à utiliser ce formulaire pour prendre contact avec nous!
+            </p>
+            <br>
+            <br>
+            <label for="name">Votre nom</label>
+            <input id="name" type="text" placeholder="Martin">
+            <br>
+            <label for="mail">Votre e-mail</label>
+            <input type="email" id="mail"placeholder="monadresse@mail.com">
+            <br>
+            <label for="sujetMsg">Quel est le sujet de votre message ?</label>
+           
+            <select name="message" id="sujetMsg" placeholder="choississez le sujet de votre message">
+                
+                <option value="">Problème avec mon compte</option>
+                <option value="">Question à propos d’un produit</option>
+                <option value="">Suivi de ma commande</option>
+                <option value="">Autre...</option>  
+            </select>
+            <br>
+            <br>
+           
+            <textarea name="" id="Msg" cols="30" rows="10"placeholder="Bonjour je vous contacte car..."></textarea>
+            <br>
+            <br>
+            <button type="submit">Envoyer mon message</button>
+        </form>
+    </div>
+</body>
+</html>
